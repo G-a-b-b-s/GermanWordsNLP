@@ -1,30 +1,30 @@
 # GermanWordsNLP - Analiza Częstotliwości Słów w Języku Niemieckim
 
-Projekt realizuje analizę częstotliwości występowania słów w tekstach niemieckich oraz ich zgodności z prawem Zipfa. Program przetwarza dane tekstowe, generuje statystyki oraz wizualizuje wyniki.
+This project analyzes the frequency of words in German texts and their conformity with Zipf's law. The program processes text data, generates statistics, and visualizes the results.
 
-## Funkcjonalności
-1. **Wczytywanie plików**: Analizowane są pliki tekstowe w folderze `deutchesPDF`.
-2. **Przetwarzanie tekstu**: Czyszczenie danych, tokenizacja oraz agregacja liczby wystąpień słów.
-3. **Analiza zgodności z prawem Zipfa**: Wyznaczanie teoretycznych częstotliwości na podstawie pozycji słowa w rankingu.
-4. **Wizualizacja wyników**: Generowanie wykresu porównującego rzeczywiste i przewidywane częstotliwości.
+## Features
+1. **File Loading:** Text files in the deutchesPDF folder are analyzed.
+2. **Text Processing:** Data cleaning, tokenization, and aggregation of word occurrences.
+3. **Zipf's Law Analysis:** Calculation of theoretical frequencies based on word rankings.
+4. **Result Visualization:** Generation of a graph comparing actual and predicted frequencies.
 
-## Wymagania
-- Python 3.9 lub nowszy
-- Zainstalowane biblioteki:
+## Requirements
+- Python 3.9<=
+- Installed libraries:
   - `pandas`
   - `matplotlib`
 
-## Instrukcja uruchomienia
-1. Upewnij się, że wszystkie pliki tekstowe znajdują się w folderze `data_txt`.
-2. Zainstaluj wymagane biblioteki:
+## Setup Instructions
+1. Ensure all text files are in the `deutchesPDF` folder.
+2. Install the required libraries:
    ```bash
    pip install -r requirements.txt
 
-3. Uruchom jupyter notebook lub google collab
+3. Launch Jupyter Notebook or Google Colab:
     ```bash
    jupyter notebook
 
-4. Prześlij plik
+4. Upload a file
   ```python
   zipf (4).ipynb
 
